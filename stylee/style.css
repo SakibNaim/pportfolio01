@@ -176,3 +176,30 @@ main section{
     border-radius: 5px;
 
 }
+
+/* resume container */
+
+.resume-container{
+    display: flex;
+    gap:24px;
+}
+
+.btn-primary{
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-btn{
+    margin-top: 29px;
+}
+.exp-sub{
+    font-size: 15px;
+    font-weight: 200;
+    color: #474747;
+    margin-top: 0px;
+}
+.exp-title{
+    margin-bottom: 0px;
+}
+
+
