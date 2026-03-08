@@ -12,6 +12,9 @@
 
 
 /* shared style */
+.text-align{
+    text-align: center;
+}
 .head-bg{
     background-color: #FFF8F3;
 }
@@ -131,6 +134,11 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 /* about section */
 
 .about{
@@ -148,4 +156,23 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+
+/* skill section st */
+
+ .skills{
+   
+    margin-top: 130px;
+} 
+
+.skills-container{
+    display: flex;
+    gap:24px;
+}
+
+.skill{
+    padding: 33px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+    border-radius: 5px;
+
 }
